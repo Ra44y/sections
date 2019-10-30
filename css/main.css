@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  display: inline-block;
+  text-align: center;
+  background-color: #eee9de;
+  margin: 0;
+  width: 100%;
+}
+
+div {
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  width: 100%;
+  max-width: 25em;
+  padding-top: .5em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  margin-top: 1.5em;
+}
+
+.text {
+  text-align: left;
+  padding: 1em;
+  width: 100%;
+  max-width: 25em;
+}
+
+h2 {
+  padding: .5em 0 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.giza {
+  padding: 0 0 .75em;
+  margin: 0;
+  font-weight: bold;
+  color: #000;
+}
+
+.btn {
+  text-align: left;
+  margin-bottom: 1.5em;
+  max-width: 25em;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 2.5em;
+  padding: .4em 0 0;
+  width: 100%;
+  max-width: 25em;
+  color: #000;
+}
+
+div a {
+  display: inline-block;
+  background-color: #eee9de;
+  border: 3px solid #333;
+  border-radius: 7px;
+  padding: .5em .75em;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+div a:hover {
+  background-color: #666;
+  color: #eee9de;
+  border: 3px solid #666;
+  border-radius: 7px;
+}
